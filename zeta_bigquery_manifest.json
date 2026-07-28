@@ -1,0 +1,34 @@
+[
+    {
+        "bigQueryTransactionIdentifier": "BQ-00001",
+        "storageAssetMetadata": {
+            "evaluatedTableSchemaType": "LEGACY_UNPARTITIONED_FULL_SCAN",
+            "ingestYearPartition": 2024
+        },
+        "queryPlanExecutionTelemetry": {
+            "dataFootprintScannedGB": 450.5,
+            "queryRuntimeDurationSeconds": 42
+        },
+        "cloudFinOpsGovernance": {
+            "billingComplianceStatus": "CRITICAL_BILLING_RUNAWAY_HAZARD",
+            "ZetaAgentActionDirective": "EXECUTE_AUTOMATED_BIGQUERY_PARTITION_CLUSTER_MIGRATION",
+            "infrastructureResponseStatusCode": 402
+        }
+    },
+    {
+        "bigQueryTransactionIdentifier": "BQ-00002",
+        "storageAssetMetadata": {
+            "evaluatedTableSchemaType": "LEGACY_UNPARTITIONED_FULL_SCAN",
+            "ingestYearPartition": 2025
+        },
+        "queryPlanExecutionTelemetry": {
+            "dataFootprintScannedGB": 820.2,
+            "queryRuntimeDurationSeconds": 89
+        },
+        "cloudFinOpsGovernance": {
+            "billingComplianceStatus": "CRITICAL_BILLING_RUNAWAY_HAZARD",
+            "ZetaAgentActionDirective": "EXECUTE_AUTOMATED_BIGQUERY_PARTITION_CLUSTER_MIGRATION",
+            "infrastructureResponseStatusCode": 402
+        }
+    }
+]
